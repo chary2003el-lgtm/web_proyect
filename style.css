@@ -10,9 +10,9 @@ IMPORTACIÓN DE FUENTES Y CONFIGURACIÓN GLOBAL
 }
 
 body {
-  font-family: "Jost", serif;
+  font-family: "heebo", sans-serif;
   min-height: 100vh;
-  background: url(./image01.jpg) no-repeat center center/cover fixed;
+  background: url(./Gradient.jpg) no-repeat center center/cover fixed;
   color: #ffffff;
 }
 
@@ -59,7 +59,7 @@ BARRA DE NAVEGACIÓN
 
 .navbar-container .navbar-menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #838ef6;
   font-size: 1.3rem;
   font-weight: 500;
   padding: 3px 20px;
@@ -72,8 +72,8 @@ BARRA DE NAVEGACIÓN
 .navbar-container .navbar-menu li a:hover,
 .navbar-container .navbar-menu li a.active {
   color: #162530;
-  background: rgba(188, 212, 229, 0.8);
-  border: 2px solid #fff;
+  background: rgba(248, 243, 147, 0.8);
+  border: 2px solid #ffe481;
 }
 
 .navbar-toggle {
@@ -111,7 +111,7 @@ SECCIÓN HEADER / HERO
   background: rgba(22, 37, 48, 0.65);
   backdrop-filter: blur(8px);
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(237, 230, 172, 0.2);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
